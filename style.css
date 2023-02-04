@@ -1,0 +1,204 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
+    background-size: cover;
+}
+
+
+/*parte de arriba*/
+
+header{
+    background-image: url(https://images2.alphacoders.com/261/thumb-1920-26102.jpg);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+h1{
+    font-size: 80px;
+    color: rgb(239, 241, 241);
+
+}
+h2{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+/*navegador*/
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    padding-left: 5%;
+}
+
+.navegador{
+    list-style: none;
+    color: rgb(250, 248, 248);
+    text-decoration:none ;
+    font-size: 20px;
+    font-family:  Helvetica, sans-serif;
+    padding-right: 5%;
+}
+.navegador:hover{
+    text-decoration: underline;
+}
+
+select{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+  select:hover{
+    text-decoration: underline;
+  }
+
+
+
+
+/*barra de busqueda*/
+.barra-navegacion{
+    padding-left: 30%;
+}
+
+.barra{
+    width: 300px;
+    height: 33px;
+    
+}
+
+
+.boton{
+    cursor: pointer;
+    border: none;
+    border-radius: 8% ;
+    padding: 8px 17px;
+}
+
+.boton:hover{
+    background-color: skyblue;
+    transition: 1s;
+    
+}
+
+/*medio*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    width: 220px;
+    height:350px ;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.cont:hover{
+    transform: scale(1.1);
+}
+
+
+ img {
+    width: 200px;
+    height: 300px;
+}
+
+
+.Link{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(249, 249, 253);
+    background-color: rgb(240, 48, 0);
+    padding: 1px 15px;
+    border-radius: 3px;
+}
+
+.cont-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.contenedor-form{
+    background-color: rgb(127, 129, 129);
+    width: 400px;
+    height: 450px;
+    margin-bottom: 50px;
+   border-radius: 3px;
+   
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-uno{
+    margin-top: 5%;
+    width: 250px;
+    height: 25px;
+}
+
+textarea{
+    resize: none;
+    margin-top: 30px;
+    width: 270px;
+}
+
+.Button-form{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+/* adaptacion para celulares*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    h1{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .barra-navegacion {
+      display: none;
+      
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .dropbtn {
+      position: absolute;
+        margin-left: 6%;
+        margin-top: -3%;
+      
+    }
+  }
+

@@ -1,0 +1,50 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedi Tu Libro</title>
+  </head>
+  <body>
+    <header>
+      <h1>TODOLIBROS</h1>
+      <h2>Pdf</h2>
+    </header>
+    <nav>
+      <a class="navegador" href="../index.html"> Inicio</a>
+      <select onchange="window.location.href=this.value" >
+        <option  value="">Categorías</option>
+        <option  value="../categorias/Cuentos y Novelas.html">Cuentos Y Novelas</option>
+        <option value="../categorias/Adolecentes.html">Adolecentes</option>
+        <option value="../categorias/Ciencia ficcion.html">Ciencia Ficcion</option>
+        <option value="../categorias/Terror.html">Terror</option>
+      </select>
+    </nav>
+    <h2>Pedi Tu Libro pdf</h2>
+
+    <div class="cont-form">
+      <div class="contenedor-form">
+        <form action="">
+          <input
+            class="input-uno"
+            type="email"
+            placeholder="Ingresa tu Email"
+            name=""
+            id=""
+          />
+          <textarea
+            class="input-dos"
+            rows="16"
+            placeholder="Pide Tu Libro Dando Detalles Del Autor Nombre etc..."
+          ></textarea>
+          <button class="Button-form" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

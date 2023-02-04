@@ -1,0 +1,37 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyFiccion</title>
+  </head>
+  <body>
+    <header>
+      <h1>TODOLIBROS</h1>
+      <h2>Pdf</h2>
+    </header>
+    <nav>
+      <a class="navegador" href="../index.html"> Inicio</a>
+      <a class="navegador" href="../solicitud libro/pedir.html"
+        >Solicita Tu Libro</a
+      >
+      <select onchange="window.location.href=this.value" >
+        <option  value="">Categorías</option>
+        <option  value="./Cuentos y Novelas.html">Cuentos Y Novelas</option>
+        <option value="./Adolecentes.html">Adolecentes</option>
+        <option value="./Ciencia ficcion.html">Ciencia Ficcion</option>
+        <option value="./Terror.html">Terror</option>
+      </select>
+      
+    </nav>
+
+    <div class="contenedor">
+      <script src="./CyFiccion.js"></script>
+    </div>
+  </body>
+</html>
